@@ -1,0 +1,7 @@
+appId: ${AUTH_GITHUB_APP_ID}
+webhookUrl: ${AUTH_GITHUB_WEBHOOK_URL}
+clientId: ${AUTH_GITHUB_CLIENT_ID}
+clientSecret: ${AUTH_GITHUB_CLIENT_SECRET}
+webhookSecret: ${AUTH_GITHUB_WEBHOOK_SECRET}
+privateKey: |
+  ${AUTH_GITHUB_PRIVATE_KEY}

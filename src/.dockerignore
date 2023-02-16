@@ -1,0 +1,9 @@
+.git
+node_modules
+packages/*/node_modules
+plugins
+packages/*/dist
+plugins/*/dist
+plugins/*/node_modules
+.kubernetes
+.azure-pipelines
