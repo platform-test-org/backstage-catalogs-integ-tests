@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: backstage-bucket
+  description: Backstage's GCP Cloud Storage Bucket, used for storing published TechDocs.
+  namespace: stone-payments
+spec:
+  type: gcp-bucket
+  owner: sre-platform

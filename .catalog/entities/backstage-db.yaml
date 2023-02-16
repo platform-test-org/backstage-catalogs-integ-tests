@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: backstage-db
+  description: Backstage Supporting DB, configured as GCP Cloud SQL PostgreSQL instances.
+  namespace: stone-payments
+spec:
+  type: database
+  owner: sre-platform
