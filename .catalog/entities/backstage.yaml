@@ -7,14 +7,14 @@ metadata:
   namespace: stone-payments
   annotations:
     backstage.io/techdocs-ref: dir:../../
-    github.com/project-slug: stone-payments/backstage
-  links:
-    - url: https://portal.platform.buy4.io/
-      title: Portal
-      icon: dashboard
-    - url: https://docs.platform.buy4.io/backstage
-      title: Site de Documentação
-      icon: docs
+    # github.com/project-slug: stone-payments/backstage
+  # links:
+  #   - url: https://portal.platform.buy4.io/
+  #     title: Portal
+  #     icon: dashboard
+  #   - url: https://docs.platform.buy4.io/backstage
+  #     title: Site de Documentação
+  #     icon: docs
 spec:
   type: website
   lifecycle: production
