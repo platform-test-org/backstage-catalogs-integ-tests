@@ -34,4 +34,3 @@ export GITHUB_TOKEN=<YOUR_TOKEN>
 yarn
 yarn dev
 ```
-
