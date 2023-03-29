@@ -14,7 +14,7 @@ O Backstage pode ser utilizado por qualquer time na Stone Pagamentos, mesmo que 
 
 Esta página tem apenas estas informações básicas, mas você encontrará muito mais informação sobre o nosso Backstage no nosso site principal de documentação da SRE-Platform.
 
-```mermaid
+```kroki-mermaid
 graph TD;
     A-->B;
     A-->C;
