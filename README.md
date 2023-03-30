@@ -16,7 +16,7 @@ Environment variables are imported in 'app-config.*.yaml' files with the syntax 
 For production environment we use this [Azure DevOps Variable Group](https://stonepagamentos.visualstudio.com/chapter-sre/_library?itemType=VariableGroups&view=VariableGroupView&variableGroupId=5506)
 
 ## How To Run Locally
-
+a
 * **Docker**
 After setting up your dependencies and environment variables, run from the 'src' folder:
 a
