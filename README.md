@@ -8,7 +8,7 @@ The service is deployed using an [Azure Devops Pipeline](https://stonepagamentos
 
 ## Authentication
 
-Authentication is done with the Github OAuth app provider. Guests users are not authorized..
+Authentication is done with the Github OAuth app provider. Guests users are not authorized.
 
 ## Environment variables
 
