@@ -15,7 +15,7 @@ Authentication is done with the Github OAuth app provider. Guests users are not 
 Environment variables are imported in 'app-config.*.yaml' files with the syntax `${ENV_VAR}`
 For production environment we use this [Azure DevOps Variable Group](https://stonepagamentos.visualstudio.com/chapter-sre/_library?itemType=VariableGroups&view=VariableGroupView&variableGroupId=5506)
 
-## How To Run Locally
+## How To Run Locallys
 
 * **Docker**
 After setting up your dependencies and environment variables, run from the 'src' folder:
