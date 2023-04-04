@@ -5,7 +5,6 @@ nav:
 
 plugins:
   - techdocs-core
-  - kroki
   
 markdown_extensions:
   pymdownx.extra:
