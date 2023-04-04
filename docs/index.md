@@ -1,32 +1,35 @@
-# Backstage
+<p align="center">
+    <img width=20% src="StoneLogo.png">
+</p>
+    
+<h3 align="center">Credit Funding Service</h3>
 
-O Backstage se define como uma "open platform for building developer portals". E está sendo integrado no projeto [SRE-Platform](https://docs.platform.buy4.io/) principalmente como uma web UI.
-
-Esta instalação atende hoje o escopo da organização GitHub **stone-payments**. Ainda não temos uma instalação unificada para toda Stone.Co.
-
-Pode ser acessado a partir da URL [portal.platform.buy4.io](https://portal.platform.buy4.io).
-
-(_Requer VPN. O login é feito utilizando sua conta corporativa do Google._)
-
-O Backstage pode ser utilizado por qualquer time na Stone Pagamentos, mesmo que o time não tenha criado nenhuma aplicação pela plataforma!
-
-## Documentação
-
-Esta página tem apenas estas informações básicas, mas você encontrará muito mais informação sobre o nosso Backstage no nosso site principal de documentação da SRE-Platform.
+[![Build Status](https://stonepagamentos.visualstudio.com/finprods-Credit/_apis/build/status/%5Bapp%5D%20credit-funding-service-CD?branchName=main&stageName=Build)](https://stonepagamentos.visualstudio.com/finprods-Credit/_build/latest?definitionId=5305&branchName=main)
+[![Jira Current Sprint](https://img.shields.io/badge/CADEFU-Sprint-blue?logo=jira)](https://mundipagg.atlassian.net/jira/software/c/projects/CADEFU/boards/1293)
+[![Jira Roadmap Sprint](https://img.shields.io/badge/CADEFU-Roadmap-blue?logo=jira)](https://mundipagg.atlassian.net/jira/software/c/projects/CADEFU/boards/1293/roadmap)
+[![Slack Channel](https://img.shields.io/static/v1?label=Channel&message=capital-debt-funding-team&color=blue&logo=slack)](https://stonepgto.slack.com/archives/C03RZJJ7PNX)
 
 
-![backstage](https://user-images.githubusercontent.com/10145602/229814162-c94753c7-2e2b-445f-9f67-80ccaab2f57e.png)
+## Healthiness
 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-    E-->F;
-```
+[![Api Staging Check](https://credit-staging.stone.com.br/funding-api/health/badge?label=API-Staging)](https://credit-staging.stone.com.br/funding-api/health)
+[![Api Production East Check](https://credit.stone.com.br/funding-api/health/badge?label=API-Production-East)](https://credit.stone.com.br/funding-api/health)
+[![Api Production Central Check](https://credit.stone.com.br/funding-api/health/badge?label=API-Production-Central)](https://credit.stone.com.br/funding-api/health)
 
-Veja:
+[![Worker Staging Check](https://credit-staging.stone.com.br/funding-worker/health/badge?label=Worker-Staging)](https://credit-staging.stone.com.br/funding-worker/health)
+[![Worker Production East Check](https://credit.stone.com.br/funding-worker/health/badge?label=Worker-Production-East)](https://credit.stone.com.br/funding-worker/health)
+[![Worker Production Central Check](https://credit.stone.com.br/funding-worker/health/badge?label=Worker-Production-Central)](https://credit.stone.com.br/funding-worker/health)
 
-* [Sobre o Backstage](https://docs.platform.buy4.io/backstage/)
-* As seções de Backstage dentro dos nossos [How-Tos](https://docs.platform.buy4.io/how-to)
+## Maturity
+
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=stone-payments_credit-funding-service&token=4dfdeb88cb75e8a54fda4b7cde6d7c281edf4dc8)](https://sonarcloud.io/summary/new_code?id=stone-payments_credit-funding-service)
+
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=stone-payments_credit-funding-service&metric=coverage&token=4dfdeb88cb75e8a54fda4b7cde6d7c281edf4dc8)](https://sonarcloud.io/summary/new_code?id=stone-payments_credit-funding-service)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=stone-payments_credit-funding-service&metric=duplicated_lines_density&token=4dfdeb88cb75e8a54fda4b7cde6d7c281edf4dc8)](https://sonarcloud.io/summary/new_code?id=stone-payments_credit-funding-service)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=stone-payments_credit-funding-service&metric=sqale_rating&token=4dfdeb88cb75e8a54fda4b7cde6d7c281edf4dc8)](https://sonarcloud.io/summary/new_code?id=stone-payments_credit-funding-service)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=stone-payments_credit-funding-service&metric=reliability_rating&token=4dfdeb88cb75e8a54fda4b7cde6d7c281edf4dc8)](https://sonarcloud.io/summary/new_code?id=stone-payments_credit-funding-service)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=stone-payments_credit-funding-service&metric=security_rating&token=4dfdeb88cb75e8a54fda4b7cde6d7c281edf4dc8)](https://sonarcloud.io/summary/new_code?id=stone-payments_credit-funding-service)
+
+## About the project
+
+- This is the project responsible for funding credit operations
