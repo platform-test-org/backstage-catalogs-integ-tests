@@ -30,6 +30,19 @@
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=stone-payments_credit-funding-service&metric=reliability_rating&token=4dfdeb88cb75e8a54fda4b7cde6d7c281edf4dc8)](https://sonarcloud.io/summary/new_code?id=stone-payments_credit-funding-service)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=stone-payments_credit-funding-service&metric=security_rating&token=4dfdeb88cb75e8a54fda4b7cde6d7c281edf4dc8)](https://sonarcloud.io/summary/new_code?id=stone-payments_credit-funding-service)
 
+```mermaid
+gitGraph
+       commit
+       commit
+       branch develop
+       commit
+       commit
+       commit
+       checkout main
+       commit
+       commit
+```
+
 ## About the project
 
 - This is the project responsible for funding credit operations
