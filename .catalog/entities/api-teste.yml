@@ -9,15 +9,14 @@ spec:
   owner: artist-relations-team
   system: artist-engagement-portal
   definition: |
-    openapi: "3.0.0"
+    asyncapi: 2.6.0
     info:
-      version: 1.0.0
-      title: Artist API
-      license:
-        name: MIT
-    servers:
-      - url: http://artist.spotify.net/v1
-    paths:
-      /artists:
-        get:
-          summary: List all artists
+      title: Hello world application
+      version: '0.1.0'
+    channels:
+      hello:
+        publish:
+          message:
+            payload:
+              type: string
+              pattern: '^hello .+$'
