@@ -8,15 +8,5 @@ spec:
   lifecycle: production
   owner: artist-relations-team
   system: artist-engagement-portal
-  definition: |
-    asyncapi: 2.6.0
-    info:
-      title: Hello world application
-      version: '0.1.0'
-    channels:
-      hello:
-        publish:
-          message:
-            payload:
-              type: string
-              pattern: '^hello .+$'
+  definition: 
+    $text: ./definition.yml
