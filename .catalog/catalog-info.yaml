@@ -3,7 +3,7 @@ kind: Location
 metadata:
   name: backstage-location
   title: Backstage Location
-  description: Static location used to register entities for the backstage repo
+  description: Static location used to register entities for the backstage rep
   namespace: stone-payments
   tags:
     - sre-platform
