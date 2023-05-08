@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: backstage-api-demo
+  description: Demonstrate OpenAPI in Backstage
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: backstage-demo-team
+  system: backstage-demo-system
+  definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: Backstage Demo API
+    servers:
+      - url: http://some-backstage-api/v1
+    paths:
+      /dummy:
+        get:
+          summary: List all dummies
+        post:
+          summary: Creates random dummy
+        delete:
+          summary: Deletes random dummy

@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: backstage-demo
+  title: Backstage Demo
+  description: A Backstage Demo
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: url
+  targets:
+    - ./entities/api.yaml
