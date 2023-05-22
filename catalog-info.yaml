@@ -3,7 +3,6 @@ kind: Component
 metadata:
   name: backstage-demo
   title: Backstage Demo
-  not-exist: asdas
   description: Aplicação teste1
   namespace: stone
   annotations:
@@ -27,5 +26,6 @@ metadata:
 spec:
   type: website
   lifecycle: experimental
+  asdasd
   owner: pagarme/sre-platform
   system: system:pagarme/backstage
