@@ -3,7 +3,8 @@ kind: Component
 metadata:
   name: backstage-demo
   title: Backstage Demo
-    escription: Aplicação teste1
+  not-exist: asdas
+  description: Aplicação teste1
   namespace: stone
   annotations:
     legacy.stone.tech/owner-email: meu.email@stone.com.br
