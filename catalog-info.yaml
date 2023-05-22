@@ -1,12 +1,30 @@
 apiVersion: backstage.io/v1alpha1
-kind: Location
+kind: Component
 metadata:
   name: backstage-demo
   title: Backstage Demo
-  description: A Backstage Demo
+    escription: Aplicação teste1
+  namespace: stone
   annotations:
-    backstage.io/techdocs-ref: dir:.
+    legacy.stone.tech/owner-email: meu.email@stone.com.br
+    legacy.stone.tech/prod-date: "2023-03-01"
+    stone.tech/cloud-accounts: aws/pagarme-tools,gcp/sreplatform
+    stone.tech/on-prem-sites: chicago1
+  labels:
+    legacy.stone.tech/internal-user-auth-base: sso
+    legacy.stone.tech/access-request-type: service-now-stone
+    legacy.stone.tech/handle-lgpd: "true"
+    legacy.stone.tech/customer-auth-method: api-key
+    stone.tech/endpoint-type: public
+  links:
+    - url: https://github.com/stone-payments/actions/deploy
+      title: CD Pipeline
+    - url: https://newrelic.com/stone/backstage-demo
+      title: Monitoring
+    - url: https://pagerduty.com/stone/backstage-demo
+      title: Incident Manager
 spec:
-  type: url
-  targets:
-    - ./entities/api.yaml
+  type: website
+  lifecycle: experimental
+  owner: pagarme/sre-platform
+  system: system:pagarme/backstage
