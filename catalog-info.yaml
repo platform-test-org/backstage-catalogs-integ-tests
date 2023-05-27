@@ -10,6 +10,6 @@ spec:
   type: url
   targets:
     - ./entities/api.yaml
-    - ./entities/component.yaml
     - ./entities/resource1.yaml
+    - ./entities/component.yaml
     - ./entities/resource2.yaml
