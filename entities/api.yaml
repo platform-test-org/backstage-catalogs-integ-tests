@@ -10,7 +10,7 @@ spec:
   definition: |
     openapi: "3.0.0"
     info:
-      version: 1.0.0
+      version: 1.0.0sadfasdfasdf
       title: Backstage Demo API
     servers:
       - url: http://some-backstage-api/v1
