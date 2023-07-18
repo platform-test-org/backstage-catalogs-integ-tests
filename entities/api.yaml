@@ -8,7 +8,7 @@ spec:
   lifecycle: experimental
   owner: backstage-demo-team
   definition: |
-    openapi: "3.0.0"
+    openapi: "3.0.0asdasdasd"
     info:
       version: 1.0.0
       title: Backstage Demo API
