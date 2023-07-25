@@ -18,3 +18,26 @@ gitGraph
 ```
 
 Curabitur fringilla imperdiet ex ac tempor. Duis sagittis nisl a lacinia auctor. Nulla facilisi. Fusce id maximus velit. Etiam rutrum urna at placerat mollis. Fusce blandit ultricies bibendum. Phasellus ut turpis at nisl condimentum pulvinar eu dignissim lacus. Aliquam sit amet nibh in erat finibus venenatis ac vitae orci. Morbi vel mauris ac ligula elementum luctus. Integer egestas ipsum quis ipsum fringilla ultricies. Nam pharetra gravida neque, venenatis feugiat erat. Aliquam nec risus et libero finibus malesuada et ut diam. Sed tristique odio in leo ultrices dignissim. Suspendisse mauris est, efficitur nec risus nec, lobortis laoreet ipsum. Vestibulum convallis, quam sed bibendum varius, augue orci bibendum orci, nec tincidunt purus sapien vitae enim.
+
+```mermaid
+classDiagram
+    direction BT
+    namespace Framework {
+
+        class AggregateRoot {
+            <<Abstract>>
+            +int CurrentVersion
+        }
+
+        class Entity {
+            <<Abstract>>
+            +string Id
+        }
+
+        class ISnapshottable {
+            <<Interface>>
+            +TakeSnapshot() Snapshot
+            +ApplySnapshot (Snapshot snapshot)
+        }
+    }
+```
