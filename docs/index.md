@@ -22,5 +22,5 @@ Curabitur fringilla imperdiet ex ac tempor. Duis sagittis nisl a lacinia auctor.
 ```mermaid
 classDiagram
 
-namespace BaseShapes {}
+namespace BaseShapes
 ```
