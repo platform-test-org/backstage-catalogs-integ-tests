@@ -23,6 +23,7 @@ Curabitur fringilla imperdiet ex ac tempor. Duis sagittis nisl a lacinia auctor.
 classDiagram
 
 namespace BaseShapes {
+
     class Triangle
     class Rectangle {
       double width
