@@ -21,23 +21,20 @@ Curabitur fringilla imperdiet ex ac tempor. Duis sagittis nisl a lacinia auctor.
 
 ```mermaid
 classDiagram
-    direction BT
-    namespace Framework {
+  direction BT
+  class AggregateRoot {
+     <<Abstract>>
+     +int CurrentVersion
+  }
 
-        class AggregateRoot {
-            <<Abstract>>
-            +int CurrentVersion
-        }
+  class Entity {
+     <<Abstract>>
+     +string Id
+  }
 
-        class Entity {
-            <<Abstract>>
-            +string Id
-        }
-
-        class ISnapshottable {
-            <<Interface>>
-            +TakeSnapshot() Snapshot
-            +ApplySnapshot (Snapshot snapshot)
-        }
-    }
+  class ISnapshottable {
+     <<Interface>>
+     +TakeSnapshot() Snapshot
+     +ApplySnapshot (Snapshot snapshot)
+  }
 ```
