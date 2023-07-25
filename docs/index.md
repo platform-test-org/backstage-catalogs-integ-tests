@@ -21,6 +21,7 @@ Curabitur fringilla imperdiet ex ac tempor. Duis sagittis nisl a lacinia auctor.
 
 ```mermaid
 classDiagram
+namespace Framework {
   direction BT
   class AggregateRoot {
      <<Abstract>>
@@ -37,4 +38,5 @@ classDiagram
      +TakeSnapshot() Snapshot
      +ApplySnapshot (Snapshot snapshot)
   }
+}
 ```
