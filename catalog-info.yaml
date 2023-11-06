@@ -9,7 +9,9 @@ metadata:
 spec:
   type: url
   targets:
-    - ./entities/api.yaml
-    - ./entities/resource1.yaml
+    - ./entities/domain.yaml
+    - ./entities/system.yaml
     - ./entities/component.yaml
+    - ./entities/resource1.yaml
     - ./entities/resource2.yaml
+    - ./entities/api.yaml
