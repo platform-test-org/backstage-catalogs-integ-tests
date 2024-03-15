@@ -1,17 +1,11 @@
 apiVersion: backstage.io/v1alpha1
-kind: Location
+kind: Component
 metadata:
-  name: backstage-demo
-  title: Backstage Demo
-  description: A Backstage Demo
-  annotations:
-    backstage.io/techdocs-ref: dir:.
+  name: backstage-catalogs-integ-tests
+  title: backstage-catalogs-integ-tests
+  description: Adicione a sua descrição
+  namespace: to-be-defined
 spec:
-  type: url
-  targets:
-    - ./entities/domain.yaml
-    - ./entities/system.yaml
-    - ./entities/component.yaml
-    - ./entities/resource1.yaml
-    - ./entities/resource2.yaml
-    - ./entities/api.yaml
+  type: service
+  lifecycle: experimental
+  owner: stone/to-be-defined
